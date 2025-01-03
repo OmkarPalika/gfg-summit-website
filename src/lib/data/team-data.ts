@@ -54,13 +54,8 @@ export const teamMembers: TeamMember[] = [
     bio: 'Dedicated technologist specializing in AI, web development, and crafting user-focused technical solutions.',
     imageUrl: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
     socialLinks: [
-<<<<<<< HEAD
       { icon: Linkedin, url: 'https://www.linkedin.com/in/afeefa-shahzadi-b42849302' },
       { icon: Instagram, url: 'https://www.instagram.com/afeefa.shahzadi' }
-=======
-      { icon: Linkedin, url: 'https://linkedin.com' },
-      { icon: Instagram, url: 'https://twitter.com' }
->>>>>>> 43ba04828c27708a16c2b8950f14de1dd989abc3
     ]
   },
   {
@@ -70,13 +65,8 @@ export const teamMembers: TeamMember[] = [
     bio: 'Strategic marketer with expertise in digital campaigns, community building, brand management, and enhancing online presence.',
     imageUrl: Sreemaa,
     socialLinks: [
-<<<<<<< HEAD
       { icon: Linkedin, url: 'https://www.linkedin.com/in/sreemaapenta' },
       { icon: Instagram, url: 'https://www.instagram.com/taurusszzz____' }
-=======
-      { icon: Linkedin, url: 'https://linkedin.com' },
-      { icon: Instagram, url: 'https://twitter.com' }
->>>>>>> 43ba04828c27708a16c2b8950f14de1dd989abc3
     ]
   },
   {
@@ -86,12 +76,7 @@ export const teamMembers: TeamMember[] = [
     bio: 'Skilled communicator with a passion for building networks and driving impactful outreach initiatives to foster collaboration.',
     imageUrl: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
     socialLinks: [
-<<<<<<< HEAD
       { icon: Linkedin, url: 'https://www.linkedin.com/in/likitha-praharshini-karanam-72a255256' }
-=======
-      { icon: Linkedin, url: 'https://linkedin.com' },
-      { icon: Instagram, url: 'https://twitter.com' }
->>>>>>> 43ba04828c27708a16c2b8950f14de1dd989abc3
     ]
   },
   {
@@ -101,13 +86,8 @@ export const teamMembers: TeamMember[] = [
     bio: 'Visionary designer with a passion for game aesthetics, branding, and creating visually compelling experiences.',
     imageUrl: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
     socialLinks: [
-<<<<<<< HEAD
       { icon: Linkedin, url: 'https://www.linkedin.com/in/nimmakayala-mohan-54639a258' },
       { icon: Instagram, url: 'https://www.instagram.com/mohan._1210' }
-=======
-      { icon: Linkedin, url: 'https://linkedin.com' },
-      { icon: Instagram, url: 'https://twitter.com' }
->>>>>>> 43ba04828c27708a16c2b8950f14de1dd989abc3
     ]
   },
   {
@@ -117,13 +97,8 @@ export const teamMembers: TeamMember[] = [
     bio: 'Dedicated technologist specializing in AI, web development, and crafting user-focused technical solutions.',
     imageUrl: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
     socialLinks: [
-<<<<<<< HEAD
       { icon: Linkedin, url: 'https://www.linkedin.com/in/pavan-kumar-korupolu-b048bb2a0' },
       { icon: Instagram, url: 'https://www.instagram.com/the_only_pummy' }
-=======
-      { icon: Linkedin, url: 'https://linkedin.com' },
-      { icon: Instagram, url: 'https://twitter.com' }
->>>>>>> 43ba04828c27708a16c2b8950f14de1dd989abc3
     ]
   }
 ];
