@@ -14,8 +14,8 @@ export function TicketsPage() {
   return (
     <>
       <MetaTags
-        title="Tickets | GFG Summit 2025"
-        description="Secure your spot at GFG Summit 2025. Choose from early bird, standard, and group tickets. Special discounts available for group bookings."
+        title="Tickets | GFG SC Summit 2025"
+        description="Secure your spot at GFG SC Summit 2025. Choose from early bird, standard, and group tickets. Special discounts available for group bookings."
       />
       <main className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

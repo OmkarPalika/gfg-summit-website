@@ -37,7 +37,7 @@ export function GroupPricingTable() {
                   className="border-b border-gray-50 hover:bg-gray-50"
                 >
                   <td className="px-6 py-4 text-sm text-gray-900">
-                    {size} {size === 6 ? 'or more' : ''}
+                    {size} {size === 4 ? 'or more' : ''}
                   </td>
                   <td className="px-6 py-4">
                     <span className="text-sm font-medium text-emerald-600">

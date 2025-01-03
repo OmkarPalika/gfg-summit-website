@@ -23,7 +23,7 @@ export function GroupPricingTable() {
               whileInView={{ opacity: 1, x: 0 }}
               className="border-b border-gray-50 hover:bg-gray-50"
             >
-              <td className="px-6 py-4 text-sm text-gray-900">{size} {size === 6 ? 'or more' : ''}</td>
+              <td className="px-6 py-4 text-sm text-gray-900">{size} {size === 4 ? 'or more' : ''}</td>
               <td className="px-6 py-4 text-sm text-gray-900">₹{pricePerPerson}</td>
               <td className="px-6 py-4 text-sm font-medium text-emerald-600">{label}</td>
             </motion.tr>

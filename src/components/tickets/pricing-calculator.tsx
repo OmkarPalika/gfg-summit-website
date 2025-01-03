@@ -29,14 +29,14 @@ export function PricingCalculator({ onSelect }: PricingCalculatorProps) {
             type="range"
             id="group-size"
             min="1"
-            max="4"
+            max="10"
             value={groupSize}
             onChange={(e) => setGroupSize(parseInt(e.target.value))}
             className="w-full h-2 bg-emerald-100 rounded-lg appearance-none cursor-pointer"
           />
           <div className="flex justify-between text-sm text-gray-600 mt-2">
             <span>1</span>
-            <span>4</span>
+            <span>10</span>
           </div>
         </div>
 

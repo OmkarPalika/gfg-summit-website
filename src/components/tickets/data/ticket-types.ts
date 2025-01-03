@@ -34,7 +34,8 @@ export const ticketTypes: TicketType[] = [
     features: [
       'All standard benefits',
       'Group seating arrangement',
-      'Flexible payment options'
+      'Flexible payment options',
+      'Priority Check-In'
     ],
     highlight: true
   }

@@ -18,13 +18,13 @@ export function RegistrationPage() {
   return (
     <>
       <MetaTags
-        title="Register | GFG Summit 2025"
-        description="Register for GFG Summit 2025. Join hundreds of tech enthusiasts for workshops, competitions, and networking opportunities."
+        title="Register | GFG SC Summit 2025"
+        description="Register for GFG SC Summit 2025. Join hundreds of tech enthusiasts for workshops, competitions, and networking opportunities."
       />
       <main className="py-24 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div {...fadeInUp} className="text-center mb-16">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">Register for GFG Summit</h1>
+            <h1 className="text-4xl font-bold text-gray-900 mb-4">Register for GFG SC Summit</h1>
             <p className="text-xl text-gray-600">Join us for an amazing learning experience</p>
           </motion.div>
   

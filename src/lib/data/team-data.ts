@@ -1,4 +1,5 @@
-import { Github, Linkedin, Twitter, Instagram } from 'lucide-react';
+import { Github, Linkedin, Instagram } from 'lucide-react';
+import Sreemaa from '@/public/Team/Sreemaa.jpg';
 
 export interface TeamMember {
   id: string;
@@ -7,7 +8,7 @@ export interface TeamMember {
   bio: string;
   imageUrl: string;
   socialLinks: {
-    icon: typeof Github | typeof Linkedin | typeof Twitter | typeof Instagram;
+    icon: typeof Github | typeof Linkedin | typeof Instagram;
     url: string;
   }[];
 }
@@ -20,19 +21,19 @@ export const teamMembers: TeamMember[] = [
     bio: 'Dynamic leader with 2+ years of experience in coding, app development, and building collaborative tech communities.',
     imageUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400',
     socialLinks: [
-      { icon: Linkedin, url: 'https://linkedin.com' },
-      { icon: Instagram, url: 'https://twitter.com' }
+      { icon: Linkedin, url: 'https://linkedin.com/in/omkar-palika' },
+      { icon: Instagram, url: 'https://www.instagram.com/b.tech____boy' }
     ]
   },
   {
     id: '2',
     name: 'Navaneeth Dubbaka',
-    role: 'Chapter Vice Lead',
+    role: 'Chapter Vice-Lead',
     bio: 'Innovative Python Developer with expertise in Machine Learning, Data Science, and driving impactful tech projects.',
     imageUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400',
     socialLinks: [
-      { icon: Github, url: 'https://github.com' },
-      { icon: Linkedin, url: 'https://linkedin.com' }
+      { icon: Linkedin, url: 'https://www.linkedin.com/in/navaneeth-dubbaka-77ab06297' },
+      { icon: Instagram, url: 'https://www.instagram.com/navaneeth.dubbaka' }
     ]
   },
   {
@@ -42,8 +43,8 @@ export const teamMembers: TeamMember[] = [
     bio: 'Proactive organizer with a strong foundation in software development and a passion for creating engaging tech events.',
     imageUrl: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
     socialLinks: [
-      { icon: Twitter, url: 'https://twitter.com' },
-      { icon: Linkedin, url: 'https://linkedin.com' }
+      { icon: Linkedin, url: 'https://www.linkedin.com/in/aarif-mohammad-159394325' },
+      { icon: Instagram, url: 'https://www.instagram.com/_aesthetic__asm' }
     ]
   },
   {
@@ -53,8 +54,8 @@ export const teamMembers: TeamMember[] = [
     bio: 'Dedicated technologist specializing in AI, web development, and crafting user-focused technical solutions.',
     imageUrl: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
     socialLinks: [
-      { icon: Twitter, url: 'https://twitter.com' },
-      { icon: Linkedin, url: 'https://linkedin.com' }
+      { icon: Linkedin, url: 'https://www.linkedin.com/in/afeefa-shahzadi-b42849302' },
+      { icon: Instagram, url: 'https://www.instagram.com/afeefa.shahzadi' }
     ]
   },
   {
@@ -62,21 +63,20 @@ export const teamMembers: TeamMember[] = [
     name: 'Sreemaa Penta',
     role: 'Marketing Lead',
     bio: 'Strategic marketer with expertise in digital campaigns, community building, brand management, and enhancing online presence.',
-    imageUrl: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
+    imageUrl: Sreemaa,
     socialLinks: [
-      { icon: Twitter, url: 'https://twitter.com' },
-      { icon: Linkedin, url: 'https://linkedin.com' }
+      { icon: Linkedin, url: 'https://www.linkedin.com/in/sreemaapenta' },
+      { icon: Instagram, url: 'https://www.instagram.com/taurusszzz____' }
     ]
   },
   {
     id: '6',
     name: 'K L Praharshini',
-    role: 'PR & O Lead',
+    role: 'Public Relations & Outreach Lead',
     bio: 'Skilled communicator with a passion for building networks and driving impactful outreach initiatives to foster collaboration.',
     imageUrl: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
     socialLinks: [
-      { icon: Twitter, url: 'https://twitter.com' },
-      { icon: Linkedin, url: 'https://linkedin.com' }
+      { icon: Linkedin, url: 'https://www.linkedin.com/in/likitha-praharshini-karanam-72a255256' }
     ]
   },
   {
@@ -86,8 +86,8 @@ export const teamMembers: TeamMember[] = [
     bio: 'Visionary designer with a passion for game aesthetics, branding, and creating visually compelling experiences.',
     imageUrl: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
     socialLinks: [
-      { icon: Twitter, url: 'https://twitter.com' },
-      { icon: Linkedin, url: 'https://linkedin.com' }
+      { icon: Linkedin, url: 'https://www.linkedin.com/in/nimmakayala-mohan-54639a258' },
+      { icon: Instagram, url: 'https://www.instagram.com/mohan._1210' }
     ]
   },
   {
@@ -97,8 +97,8 @@ export const teamMembers: TeamMember[] = [
     bio: 'Dedicated technologist specializing in AI, web development, and crafting user-focused technical solutions.',
     imageUrl: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
     socialLinks: [
-      { icon: Twitter, url: 'https://twitter.com' },
-      { icon: Linkedin, url: 'https://linkedin.com' }
+      { icon: Linkedin, url: 'https://www.linkedin.com/in/pavan-kumar-korupolu-b048bb2a0' },
+      { icon: Instagram, url: 'https://www.instagram.com/the_only_pummy' }
     ]
   }
 ];
