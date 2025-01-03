@@ -7,7 +7,7 @@ export function HomePage() {
   return (
     <>
       <MetaTags
-        title="GFG Summit 2025 | Empowering Tomorrow's Tech Innovators"
+        title="GFG SC Summit 2025 | Empowering Tomorrow's Tech Innovators"
         description="Join us at the GFG Student Chapters Summit 2025 for three days of learning, networking, and innovation. Experience workshops, competitions, and industry visits."
       />
       <main>

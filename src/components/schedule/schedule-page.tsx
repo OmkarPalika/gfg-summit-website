@@ -52,8 +52,8 @@ export function SchedulePage() {
   return (
     <>
       <MetaTags
-        title="Schedule | GFG Summit 2025"
-        description="Explore the complete schedule of GFG Summit 2025. Find technical sessions, workshops, and career talks."
+        title="Schedule | GFG SC Summit 2025"
+        description="Explore the complete schedule of GFG SC Summit 2025. Find technical sessions, workshops, and career talks."
       />
 
       <main className="py-24 bg-gray-50">

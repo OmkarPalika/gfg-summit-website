@@ -8,8 +8,8 @@ export function ContactPage() {
   return (
     <>
       <MetaTags
-          title="Contact Us | GFG Summit 2025"
-          description="Get in touch with the GFG Summit team. We're here to answer your questions about registration, schedule, accommodation, and more."
+          title="Contact Us | GFG SC Summit 2025"
+          description="Get in touch with the GFG SC Summit team. We're here to answer your questions about registration, schedule, accommodation, and more."
         />
       <main className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

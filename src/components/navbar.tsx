@@ -47,7 +47,7 @@ export function Navbar() {
                 className="h-16 w-16"
               />
               <span className="text-2xl font-bold text-emerald-600">
-                GFG Summit
+                GFG SC Summit
               </span>
             </Link>
           </div>
