@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import { Github, Linkedin, Instagram } from 'lucide-react';
-=======
-import { Github, Linkedin, Twitter, Instagram } from 'lucide-react';
->>>>>>> 43ba04828c27708a16c2b8950f14de1dd989abc3
 import Sreemaa from '@/public/Team/Sreemaa.jpg';
 
 export interface TeamMember {
@@ -36,13 +32,8 @@ export const teamMembers: TeamMember[] = [
     bio: 'Innovative Python Developer with expertise in Machine Learning, Data Science, and driving impactful tech projects.',
     imageUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400',
     socialLinks: [
-<<<<<<< HEAD
       { icon: Linkedin, url: 'https://www.linkedin.com/in/navaneeth-dubbaka-77ab06297' },
       { icon: Instagram, url: 'https://www.instagram.com/navaneeth.dubbaka' }
-=======
-      { icon: Linkedin, url: 'https://linkedin.com' },
-      { icon: Instagram, url: 'https://twitter.com' }
->>>>>>> 43ba04828c27708a16c2b8950f14de1dd989abc3
     ]
   },
   {
@@ -52,13 +43,8 @@ export const teamMembers: TeamMember[] = [
     bio: 'Proactive organizer with a strong foundation in software development and a passion for creating engaging tech events.',
     imageUrl: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
     socialLinks: [
-<<<<<<< HEAD
       { icon: Linkedin, url: 'https://www.linkedin.com/in/aarif-mohammad-159394325' },
       { icon: Instagram, url: 'https://www.instagram.com/_aesthetic__asm' }
-=======
-      { icon: Linkedin, url: 'https://linkedin.com' },
-      { icon: Instagram, url: 'https://twitter.com' }
->>>>>>> 43ba04828c27708a16c2b8950f14de1dd989abc3
     ]
   },
   {
