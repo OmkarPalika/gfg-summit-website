@@ -5,7 +5,7 @@ interface TeamImageProps {
 
 export function TeamImage({ imageUrl, name }: TeamImageProps) {
   return (
-    <div className="aspect-[4/3] overflow-hidden">
+    <div className="aspect-[1/1] overflow-hidden">
       <img
         src={imageUrl}
         alt={name}

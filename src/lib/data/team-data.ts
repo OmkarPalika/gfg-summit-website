@@ -1,5 +1,12 @@
 import { Github, Linkedin, Instagram } from 'lucide-react';
+import Omkar from '@/public/Team/Omkar.jpg';
+// import Navaneeth from '@/public/Team/Navaneeth.jpg';
+import Afeefa from '@/public/Team/Afeefa.jpg';
+import Aarif from '@/public/Team/Aarif.jpg';
+import Praharshini from '@/public/Team/Praharshini.jpg';
 import Sreemaa from '@/public/Team/Sreemaa.jpg';
+import Mohan from '@/public/Team/Mohan.jpg';
+import Pavan from '@/public/Team/Pavan.jpg';
 
 export interface TeamMember {
   id: string;
@@ -19,7 +26,7 @@ export const teamMembers: TeamMember[] = [
     name: 'Omkar Palika',
     role: 'Chapter Lead',
     bio: 'Dynamic leader with 2+ years of experience in coding, app development, and building collaborative tech communities.',
-    imageUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400',
+    imageUrl: Omkar,
     socialLinks: [
       { icon: Linkedin, url: 'https://linkedin.com/in/omkar-palika' },
       { icon: Instagram, url: 'https://www.instagram.com/b.tech____boy' }
@@ -30,7 +37,7 @@ export const teamMembers: TeamMember[] = [
     name: 'Navaneeth Dubbaka',
     role: 'Chapter Vice-Lead',
     bio: 'Innovative Python Developer with expertise in Machine Learning, Data Science, and driving impactful tech projects.',
-    imageUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400',
+    imageUrl: '',
     socialLinks: [
       { icon: Linkedin, url: 'https://www.linkedin.com/in/navaneeth-dubbaka-77ab06297' },
       { icon: Instagram, url: 'https://www.instagram.com/navaneeth.dubbaka' }
@@ -41,7 +48,7 @@ export const teamMembers: TeamMember[] = [
     name: 'Aarif Mohammad',
     role: 'Events Lead',
     bio: 'Proactive organizer with a strong foundation in software development and a passion for creating engaging tech events.',
-    imageUrl: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
+    imageUrl: Aarif,
     socialLinks: [
       { icon: Linkedin, url: 'https://www.linkedin.com/in/aarif-mohammad-159394325' },
       { icon: Instagram, url: 'https://www.instagram.com/_aesthetic__asm' }
@@ -52,7 +59,7 @@ export const teamMembers: TeamMember[] = [
     name: 'Afeefa Shahzadi',
     role: 'Technical Lead',
     bio: 'Dedicated technologist specializing in AI, web development, and crafting user-focused technical solutions.',
-    imageUrl: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
+    imageUrl: Afeefa,
     socialLinks: [
       { icon: Linkedin, url: 'https://www.linkedin.com/in/afeefa-shahzadi-b42849302' },
       { icon: Instagram, url: 'https://www.instagram.com/afeefa.shahzadi' }
@@ -74,7 +81,7 @@ export const teamMembers: TeamMember[] = [
     name: 'K L Praharshini',
     role: 'Public Relations & Outreach Lead',
     bio: 'Skilled communicator with a passion for building networks and driving impactful outreach initiatives to foster collaboration.',
-    imageUrl: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
+    imageUrl: Praharshini,
     socialLinks: [
       { icon: Linkedin, url: 'https://www.linkedin.com/in/likitha-praharshini-karanam-72a255256' }
     ]
@@ -84,7 +91,7 @@ export const teamMembers: TeamMember[] = [
     name: 'Mohan Nimmakayala',
     role: 'Design & Branding Lead',
     bio: 'Visionary designer with a passion for game aesthetics, branding, and creating visually compelling experiences.',
-    imageUrl: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
+    imageUrl: Mohan,
     socialLinks: [
       { icon: Linkedin, url: 'https://www.linkedin.com/in/nimmakayala-mohan-54639a258' },
       { icon: Instagram, url: 'https://www.instagram.com/mohan._1210' }
@@ -95,7 +102,7 @@ export const teamMembers: TeamMember[] = [
     name: 'Pavan Kumar K',
     role: 'Social Media Lead',
     bio: 'Dedicated technologist specializing in AI, web development, and crafting user-focused technical solutions.',
-    imageUrl: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
+    imageUrl: Pavan,
     socialLinks: [
       { icon: Linkedin, url: 'https://www.linkedin.com/in/pavan-kumar-korupolu-b048bb2a0' },
       { icon: Instagram, url: 'https://www.instagram.com/the_only_pummy' }
