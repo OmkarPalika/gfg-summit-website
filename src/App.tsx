@@ -10,7 +10,12 @@ import { GOOGLE_FORMS } from './lib/utils/constants';
 
 export function App() {
   return (
-    <Router>
+    <Router
+      future={{
+        v7_startTransition: true,
+        v7_relativeSplatPath: true,
+      }}
+    >
       <div className="min-h-screen bg-gray-50">
         <Navbar />
         <Routes>
@@ -19,11 +24,9 @@ export function App() {
           <Route path="/tickets" element={<TicketsPage />} />
           <Route path="/team" element={<TeamPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route 
-            path="/register" 
-            element={
-              <RedirectToForm url={GOOGLE_FORMS.REGISTRATION} />
-            } 
+          <Route
+            path="/register"
+            element={<RedirectToForm url={GOOGLE_FORMS.REGISTRATION} />}
           />
         </Routes>
       </div>
