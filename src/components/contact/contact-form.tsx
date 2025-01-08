@@ -27,11 +27,11 @@ export function ContactForm() {
       // Send email using mailto link
       const subject = `Contact Form: ${formData.name}`;
       const body = `
-Name: ${formData.name}
-Email: ${formData.email}
+        Name: ${formData.name}
+        Email: ${formData.email}
 
-Message:
-${formData.message}
+        Message:
+        ${formData.message}
       `;
 
       window.location.href = `mailto:gfganits@gmail.com?subject=${encodeURIComponent(
@@ -73,6 +73,7 @@ ${formData.message}
             onChange={handleChange}
             required
             className="w-full rounded-lg border-2 border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 hover:border-gray-400 transition duration-200"
+            autoComplete="name"
           />
         </div>
 
@@ -91,6 +92,7 @@ ${formData.message}
             onChange={handleChange}
             required
             className="w-full rounded-lg border-2 border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 hover:border-gray-400 transition duration-200"
+            autoComplete="email"
           />
         </div>
 
@@ -109,10 +111,17 @@ ${formData.message}
             rows={4}
             required
             className="w-full rounded-lg border-2 border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 hover:border-gray-400 transition duration-200"
+            autoComplete="off"
           />
         </div>
 
-        <Button type="submit" disabled={status !== "idle"} className="w-full">
+        <Button
+          type="submit"
+          disabled={status !== "idle"}
+          className={`w-full ${
+            status !== "idle" ? "opacity-50 cursor-not-allowed" : ""
+          }`}
+        >
           {status === "idle" && "Send Message"}
           {status === "sending" && "Opening Email Client..."}
           {status === "sent" && "Email Client Opened!"}

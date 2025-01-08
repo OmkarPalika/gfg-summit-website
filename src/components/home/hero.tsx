@@ -7,7 +7,7 @@ export function Hero() {
   const navigation = useAppNavigation();
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-emerald-50 via-white to-emerald-50">
+    <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-emerald-100 via-white to-emerald-100">
       <div className="absolute inset-0 bg-grid-emerald-100/50 bg-[size:20px_20px]" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center">

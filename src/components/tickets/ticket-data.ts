@@ -1,4 +1,4 @@
-import { Clock, Users, Star, UserPlus } from 'lucide-react';
+import { Clock, Users, UserPlus } from 'lucide-react';
 import { GROUP_DISCOUNTS } from '@/lib/utils/pricing';
 
 export const tickets = [
