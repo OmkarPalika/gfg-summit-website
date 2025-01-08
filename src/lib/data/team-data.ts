@@ -7,6 +7,9 @@ import Praharshini from '@/public/Team/Praharshini.jpg';
 import Sreemaa from '@/public/Team/Sreemaa.jpg';
 import Mohan from '@/public/Team/Mohan.jpg';
 import Pavan from '@/public/Team/Pavan.jpg';
+import Principal from '@/public/Team/Principal.jpg';
+import HoD from '@/public/Team/HoD.jpg';
+import Faculty from '@/public/Team/Faculty.jpg';
 
 export interface TeamMember {
   id: string;
@@ -123,9 +126,9 @@ export const advisoryBoard: TeamMember[] = [
   {
     id: '1',
     name: 'Dr. K. B. R. Prasad',
-    designation: 'Chairman',
+    designation: 'an NRI Philanthropist from USA',
     role: 'Chairman, ANITS',
-    bio: 'Visionary leader and academic pioneer, guiding ANITS with a steadfast commitment to excellence in education and innovation.',
+    bio: 'Visionary leader and academic pioneer, guiding ANITS with a steadfast commitment to educational excellence and technological innovation.',
     imageUrl: '',
     socialLinks: [
       { icon: Linkedin, url: 'https://www.linkedin.com/in/sreemaapenta' },
@@ -135,10 +138,10 @@ export const advisoryBoard: TeamMember[] = [
   {
     id: '2',
     name: 'Prof. K. Sri Ramakrishna',
-    designation: 'Principal',
+    designation: 'B.Tech, M.S, Ph.D, FIETE, FIE (India), Life Member in BMESI, ISOI, ISTE',
     role: 'Principal, ANITS',
     bio: 'Dynamic academic administrator dedicated to fostering a culture of learning, research, and holistic student development at ANITS.',
-    imageUrl: '',
+    imageUrl: Principal,
     socialLinks: [
       { icon: Linkedin, url: 'https://www.linkedin.com/in/sreemaapenta' },
       { icon: Instagram, url: 'https://www.instagram.com/taurusszzz____' },
@@ -147,10 +150,10 @@ export const advisoryBoard: TeamMember[] = [
   {
     id: '3',
     name: 'Dr. M. Rekha Sundari',
-    designation: 'Convenor',
+    designation: 'M.Tech, Ph.D',
     role: 'Convenor',
-    bio: 'Esteemed educator and coordinator with a passion for orchestrating impactful events and nurturing academic collaborations.',
-    imageUrl: '',
+    bio: 'Esteemed educator and dedicated coordinator with a passion for orchestrating impactful academic events and fostering meaningful collaborations.',
+    imageUrl: HoD,
     socialLinks: [
       { icon: Linkedin, url: 'https://www.linkedin.com/in/sreemaapenta' },
       { icon: Instagram, url: 'https://www.instagram.com/taurusszzz____' },
@@ -161,8 +164,8 @@ export const advisoryBoard: TeamMember[] = [
     name: 'Mr. B. Kiran Kumar',
     designation: 'M.Tech, PhD',
     role: 'Faculty Coordinator',
-    bio: 'Inspiring mentor and dedicated faculty member, playing a pivotal role in bridging academia and practical learning experiences.',
-    imageUrl: '',
+    bio: 'Inspiring mentor and experienced faculty member, playing a pivotal role in bridging academia and practical industry learning experiences.',
+    imageUrl: Faculty,
     socialLinks: [
       { icon: Linkedin, url: 'https://www.linkedin.com/in/sreemaapenta' },
       { icon: Instagram, url: 'https://www.instagram.com/taurusszzz____' },
