@@ -44,7 +44,7 @@ export function Hero() {
           {/* Event Details */}
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             {[
-              { label: 'Date', value: 'February 14-16, 2025' },
+              { label: 'Date', value: 'March 14-16, 2025' },
               { label: 'Location', value: 'ANITS, Visakhapatnam' },
               { label: 'Participants', value: '500+ Students' },
             ].map((item) => (

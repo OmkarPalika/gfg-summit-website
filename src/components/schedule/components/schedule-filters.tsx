@@ -7,7 +7,7 @@ interface ScheduleFiltersProps {
   onFilterChange: (key: keyof ScheduleFilters, value: string) => void;
 }
 
-const DAYS = ['All Days', 'Day 1 - February 14', 'Day 2 - February 15', 'Day 3 - February 16'];
+const DAYS = ['All Days', 'Day 1 - March 14', 'Day 2 - March 15', 'Day 3 - March 16'];
 const TRACKS = ['All Tracks', 'Workshop', 'Competition', 'Special', 'Entertainment'];
 
 export function ScheduleFilters({ filters, onFilterChange }: ScheduleFiltersProps) {

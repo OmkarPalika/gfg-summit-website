@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-const SUMMIT_DATE = new Date('2025-02-14T09:00:00');
+const SUMMIT_DATE = new Date('2025-03-14T09:00:00');
 
 interface TimeLeft {
   days: number;
