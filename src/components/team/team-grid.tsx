@@ -1,11 +1,15 @@
+import { TeamMember } from '@/lib/data/team-data';
 import { TeamCard } from './team-card';
-import { teamMembers } from '@/lib/data/team-data';
 import { motion } from 'framer-motion';
 
-export function TeamGrid() {
+interface TeamGridProps {
+  team: Array<TeamMember & { designation?: string }>;
+}
+
+export function TeamGrid({ team }: TeamGridProps) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {teamMembers.map((member, index) => (
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      {team.map((member, index) => (
         <motion.div
           key={member.id}
           initial={{ opacity: 0, y: 20 }}
