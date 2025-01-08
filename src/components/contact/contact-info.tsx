@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, Youtube } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { fadeInLeft } from '@/lib/utils/animations';
 
@@ -20,34 +20,6 @@ const contactDetails = [
     label: 'Address',
     value: 'ANITS, Visakhapatnam',
     href: 'https://maps.app.goo.gl/WbKbqYAMw6s8BVWG6'
-  }
-];
-
-const socialMediaLinks = [
-  {
-    icon: Facebook,
-    label: 'Facebook',
-    href: 'https://www.facebook.com/profile.php?id=61564521370041'
-  },
-  {
-    icon: Twitter,
-    label: 'Twitter',
-    href: 'https://x.com/gfgsc_anits'
-  },
-  {
-    icon: Instagram,
-    label: 'Instagram',
-    href: 'https://www.instagram.com/gfgsc_anits/'
-  },
-  {
-    icon: Linkedin,
-    label: 'LinkedIn',
-    href: 'https://www.linkedin.com/company/gfgsc-anits/'
-  },
-  {
-    icon: Youtube,
-    label: 'YouTube',
-    href: "https://www.youtube.com/@gfgsc-anits"
   }
 ];
 
@@ -79,24 +51,6 @@ export function ContactInfo() {
             </div>
           </a>
         ))}
-      </div>
-
-      <div>
-        <h3 className="text-xl font-bold text-gray-900 mb-4">Follow Us</h3>
-        <div className="flex space-x-4">
-          {socialMediaLinks.map(({ icon: Icon, label, href }) => (
-            <a
-              key={label}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center p-3 rounded-full bg-emerald-100 hover:bg-emerald-200 transition-colors"
-              aria-label={label}
-            >
-              <Icon className="h-6 w-6 text-emerald-600" />
-            </a>
-          ))}
-        </div>
       </div>
     </motion.div>
   );

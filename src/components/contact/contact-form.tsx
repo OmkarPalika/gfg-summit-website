@@ -1,25 +1,27 @@
-import { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { motion } from 'framer-motion';
-import { fadeInUp } from '@/lib/utils/animations';
-import { toast } from 'react-hot-toast';
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
+import { fadeInUp } from "@/lib/utils/animations";
+import { toast } from "react-hot-toast";
 
 export function ContactForm() {
-  const [status, setStatus] = useState<'idle' | 'sending' | 'sent'>('idle');
+  const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle");
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
+    name: "",
+    email: "",
+    message: "",
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setStatus('sending');
+    setStatus("sending");
 
     try {
       // Send email using mailto link
@@ -31,19 +33,21 @@ Email: ${formData.email}
 Message:
 ${formData.message}
       `;
-      
-      window.location.href = `mailto:gfganits@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-      
+
+      window.location.href = `mailto:gfganits@gmail.com?subject=${encodeURIComponent(
+        subject
+      )}&body=${encodeURIComponent(body)}`;
+
       // Reset form
-      setFormData({ name: '', email: '', message: '' });
-      setStatus('sent');
-      toast.success('Email client opened! Please send the email to complete.');
-      
+      setFormData({ name: "", email: "", message: "" });
+      setStatus("sent");
+      toast.success("Email client opened! Please send the email to complete.");
+
       // Reset status after 2 seconds
-      setTimeout(() => setStatus('idle'), 2000);
+      setTimeout(() => setStatus("idle"), 2000);
     } catch (error) {
-      toast.error('Failed to open email client. Please try again.');
-      setStatus('idle');
+      toast.error("Failed to open email client. Please try again.");
+      setStatus("idle");
     }
   };
 
@@ -55,7 +59,10 @@ ${formData.message}
     >
       <div className="space-y-6">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+          <label
+            htmlFor="name"
+            className="block text-sm font-medium text-gray-700 mb-2"
+          >
             Name
           </label>
           <input
@@ -65,12 +72,15 @@ ${formData.message}
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full rounded-lg border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
+            className="w-full rounded-lg border-2 border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 hover:border-gray-400 transition duration-200"
           />
         </div>
 
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+          <label
+            htmlFor="email"
+            className="block text-sm font-medium text-gray-700 mb-2"
+          >
             Email
           </label>
           <input
@@ -80,12 +90,15 @@ ${formData.message}
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full rounded-lg border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
+            className="w-full rounded-lg border-2 border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 hover:border-gray-400 transition duration-200"
           />
         </div>
 
         <div>
-          <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+          <label
+            htmlFor="message"
+            className="block text-sm font-medium text-gray-700 mb-2"
+          >
             Message
           </label>
           <textarea
@@ -95,18 +108,14 @@ ${formData.message}
             onChange={handleChange}
             rows={4}
             required
-            className="w-full rounded-lg border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
+            className="w-full rounded-lg border-2 border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 hover:border-gray-400 transition duration-200"
           />
         </div>
 
-        <Button
-          type="submit"
-          disabled={status !== 'idle'}
-          className="w-full"
-        >
-          {status === 'idle' && 'Send Message'}
-          {status === 'sending' && 'Opening Email Client...'}
-          {status === 'sent' && 'Email Client Opened!'}
+        <Button type="submit" disabled={status !== "idle"} className="w-full">
+          {status === "idle" && "Send Message"}
+          {status === "sending" && "Opening Email Client..."}
+          {status === "sent" && "Email Client Opened!"}
         </Button>
       </div>
     </motion.form>
