@@ -125,21 +125,9 @@ export const coreTeam: TeamMember[] = [
 export const advisoryBoard: TeamMember[] = [
   {
     id: '1',
-    name: 'Dr. K. B. R. Prasad',
-    designation: 'an NRI Philanthropist from USA',
-    role: 'Chairman, ANITS',
-    bio: 'Visionary leader and academic pioneer, guiding ANITS with a steadfast commitment to educational excellence and technological innovation.',
-    imageUrl: '',
-    socialLinks: [
-      { icon: Linkedin, url: 'https://www.linkedin.com/in/sreemaapenta' },
-      { icon: Instagram, url: 'https://www.instagram.com/taurusszzz____' },
-    ],
-  },
-  {
-    id: '2',
     name: 'Prof. K. Sri Ramakrishna',
     designation: 'B.Tech, M.S, Ph.D, FIETE, FIE (India), Life Member in BMESI, ISOI, ISTE',
-    role: 'Principal, ANITS',
+    role: 'Patron',
     bio: 'Dynamic academic administrator dedicated to fostering a culture of learning, research, and holistic student development at ANITS.',
     imageUrl: Principal,
     socialLinks: [
@@ -148,10 +136,10 @@ export const advisoryBoard: TeamMember[] = [
     ],
   },
   {
-    id: '3',
-    name: 'Dr. M. Rekha Sundari',
+    id: '2',
+    name: 'Prof. M. Rekha Sundari',
     designation: 'M.Tech, Ph.D',
-    role: 'Convenor',
+    role: 'GFG SC Convenor',
     bio: 'Esteemed educator and dedicated coordinator with a passion for orchestrating impactful academic events and fostering meaningful collaborations.',
     imageUrl: HoD,
     socialLinks: [
@@ -160,10 +148,10 @@ export const advisoryBoard: TeamMember[] = [
     ],
   },
   {
-    id: '4',
-    name: 'Mr. B. Kiran Kumar',
+    id: '3',
+    name: 'Dr. B. Kiran Kumar',
     designation: 'M.Tech, PhD',
-    role: 'Faculty Coordinator',
+    role: 'Faculty Advisor',
     bio: 'Inspiring mentor and experienced faculty member, playing a pivotal role in bridging academia and practical industry learning experiences.',
     imageUrl: Faculty,
     socialLinks: [
