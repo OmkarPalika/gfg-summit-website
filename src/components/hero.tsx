@@ -35,7 +35,7 @@ export function Hero() {
           {/* Event Details */}
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             {[
-              { label: 'Date', value: 'March 15-17, 2024' },
+              { label: 'Date', value: 'February 15-17, 2024' },
               { label: 'Location', value: 'Tech Convention Center' },
               { label: 'Participants', value: '1000+ Students' },
             ].map((item) => (
