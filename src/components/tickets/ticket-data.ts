@@ -5,10 +5,10 @@ export const tickets = [
   {
     name: 'Early Bird',
     price: 699,
-    description: 'Limited time offer - Only 200 tickets available',
+    description: 'Limited time offer - Only 100 tickets available',
     features: ['All keynote sessions', 'Workshop access', 'Lunch included', 'Event swag'],
     icon: Clock,
-    available: 200,
+    available: 100,
     highlight: true
   },
   {
